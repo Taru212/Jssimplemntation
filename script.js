@@ -28,7 +28,11 @@ function addText() {
 
     greetBtn.addEventListener('click', () => {
         console.log('Greet has been clicked');
-        head.innerHTML = "Hello, " + input.value + "!"; 
+         if(input.value.trim() == "")
+         { head.innerHTML = "Hello";}
+        else
+         { head.innerHTML = "Hello," + input.value + '!"};
       });
     }
+
 addText();
