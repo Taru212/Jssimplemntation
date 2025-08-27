@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(143, 140, 136, 0.345);
+    padding: 20px;
+}
+
+.container{
+    border: 10px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.box{
+    background-color:white;
+    padding: 50px;
+    cursor: pointer;
+    border: 2px rgb(173, 168, 168) solid;
+}
+
+form{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#greet{
+ padding: 10px 20px;
+ background-color: rgb(218, 211, 211);
+}
+#submit:hover{
+    cursor: pointer;
+}
+
+#name{
+    padding: 10px;
+}
